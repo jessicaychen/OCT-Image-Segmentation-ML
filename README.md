@@ -3,7 +3,7 @@ Optical coherence tomography (OCT) image segmentation with a Convolutional Neura
 
 Goal:
 (a) Input image
-![Input image](https://github.com/jessicaychen/OCT-Image-Segmentation-ML/blob/master/sample%20pics/cSLO12-input.tif)
+![Input image](images/cSLO52-input.jpg)
 
 (b) Ground truth
 ![Ground truth]()
