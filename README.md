@@ -3,9 +3,9 @@ Optical coherence tomography (OCT) image segmentation with a Convolutional Neura
 
 ## Goal:
 
-(a) Input image | (b) Ground truth  | (c) Segmentation prediction - tbd
+(a) Input image | (b) Ground truth  | (c) Segmentation prediction
 --------------- | ----------------- | ---------------------------------
-![Input image](images/cSLO52-input.jpg) | ![Ground truth](images/cSLO52-groundtruth.jpg)
+![Input image](images/cSLO52-input.jpg) | ![Ground truth](images/cSLO52-groundtruth.jpg) | tbd
 
 
 ## Process: 
