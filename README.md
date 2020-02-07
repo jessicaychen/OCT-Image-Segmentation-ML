@@ -14,7 +14,4 @@ Optical coherence tomography (OCT) image segmentation with a Convolutional Neura
 2. Masking and converting masks to grayscale (Python)
 3. Pre-processing input and ground truth sets (Python)
 4. CNN - building, testing, training, validation
-5. Run on different subgroup images
-6. Skeletonize binary images (ImageJ)
-7. Extract data - # of junctions, lengths, area (ImageJ)
-8. Statistical analysis with SPSS
+5. TBD
