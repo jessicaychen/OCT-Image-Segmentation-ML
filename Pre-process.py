@@ -17,12 +17,13 @@ from PIL import Image
 #import matplotlib.image as mpimg
 
 
-save_dir = r'/Users/JessicaChen/Desktop/ML Data/Processed/' 
+#save_dir = r'/Users/JessicaChen/Desktop/ML Data/Processed-input/' 
+save_dir = r'/Users/JessicaChen/Desktop/ML Data/Processed-mask/' 
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
-
-path = "/Users/JessicaChen/Desktop/ML Data/Original cSLOs/"
+#path = "/Users/JessicaChen/Desktop/ML Data/Original cSLOs/"
+path = "/Users/JessicaChen/Desktop/ML Data/Masked cSLOs/"
 dirs = os.listdir(path)
 
 # resize images to 256x256
