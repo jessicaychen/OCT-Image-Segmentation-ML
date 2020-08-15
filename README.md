@@ -29,6 +29,5 @@ Followed this tutorial:
 ## Further Improvements to be Made:
 1. Dataset augmentation
 2. Hyperparameter tuning
-3. Cross-validation
-4. Different metrics for accuracy?
+3. Different metrics for accuracy
 
