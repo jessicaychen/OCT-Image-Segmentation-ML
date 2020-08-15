@@ -1,17 +1,34 @@
 # OCT-Image-Segmentation-ML
-Optical coherence tomography (OCT) image segmentation with a Convolutional Neural Network. Long work in progress...
+Optical coherence tomography (OCT) image segmentation with a U-Net. 
 
-## Goal:
-
-(a) Input image | (b) Ground truth  | (c) Segmentation prediction
---------------- | ----------------- | ---------------------------------
-![Input image](images/cSLO52-input.jpg) | ![Ground truth](images/cSLO52-groundtruth.jpg) | -------------tbd-------------
-
+Followed this tutorial:
+* [Code](https://github.com/hlamba28/UNET-TGS/blob/master/TGS%20UNET.ipynb)
+* [Article](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 
 ## Process: 
 
-1. Manual segmentation (Adobe Photoshop)
-2. Masking and converting masks to grayscale (Python)
-3. Pre-processing input and ground truth sets (Python)
-4. CNN - building, testing, training, validation
-5. TBD
+- [x] Acquire data
+- [x] Segment images
+- [x] Preprocess images
+- [x] Code, train, validate, test U-Net
+
+### Acquiring data
+  OCT scans were acquired manually through scanning subjects as part of other studies conducted by the [Demer Ocular Motility Lab](https://www.uclahealth.org/eye/ocular-motility). Subjects included both controls and those with optic neuropathies.
+  
+### Manual segmentation 
+  Manual segmentation of the scans were done using Adobe Photoshop. 
+  
+### Preprocessing images
+  Images were converted to grayscale (original scans) and binary (masks). Some of the manual segmentation were not completely binary, which was accounted for by setting the values to 0 and 1 in the code. 
+
+### [UNET - building, testing, training, validation](https://github.com/jessicaychen/OCT-Image-Segmentation-ML/blob/master/UNET_OCT_Blood_Vessel_Segmentation.ipynb)
+
+## Results
+![Input image](images/unet-results.png)
+
+## Further Improvements to be Made:
+1. Dataset augmentation
+2. Hyperparameter tuning
+3. Cross-validation
+4. Different metrics for accuracy?
+
