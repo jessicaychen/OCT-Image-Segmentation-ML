@@ -27,7 +27,7 @@ Followed this tutorial:
 ![Input image](images/unet-results.png)
 
 ## Further Improvements to be Made:
-1. Dataset augmentation
-2. Hyperparameter tuning
-3. Different metrics for accuracy
+- [ ] Dataset augmentation
+- [ ] Hyperparameter tuning
+- [ ] Different metrics for accuracy
 
