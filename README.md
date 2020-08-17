@@ -16,7 +16,7 @@ Followed this tutorial:
   OCT scans were acquired manually through scanning subjects as part of other studies conducted by the [Demer Ocular Motility Lab](https://www.uclahealth.org/eye/ocular-motility). Subjects included both controls and those with optic neuropathies.
   
 ### Manual segmentation 
-  Manual segmentation of the scans were done using Adobe Photoshop. 
+  Manual segmentation of the scans was done using Adobe Photoshop using the pencil tool. 
   
 ### Preprocessing images
   Images were converted to grayscale (original scans) and binary (masks). Some of the manual segmentation were not completely binary, which was accounted for by setting the values to 0 and 1 in the code. 
@@ -27,7 +27,7 @@ Followed this tutorial:
 ![Input image](images/unet-results.png)
 
 ## Further Improvements to be Made:
-- [ ] Dataset augmentation
+- [ ] Data augmentation
 - [ ] Hyperparameter tuning
 - [ ] Different metrics for accuracy
 
