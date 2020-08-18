@@ -9,7 +9,7 @@ Followed this tutorial:
 
 - [x] Acquire data
 - [x] Segment images
-- [x] Preprocess images
+- [x] Pre-process images
 - [x] Code, train, validate, test U-Net
 
 ### Acquiring data
@@ -18,7 +18,7 @@ Followed this tutorial:
 ### Manual segmentation 
   Manual segmentation of the scans was done using Adobe Photoshop using the pencil tool. 
   
-### Preprocessing images
+### Pre-processing images
   Images were converted to grayscale (original scans) and binary (masks). Some of the manual segmentation were not completely binary, which was accounted for by setting the values to 0 and 1 in the code. 
 
 ### [UNET - building, testing, training, validation](https://github.com/jessicaychen/OCT-Image-Segmentation-ML/blob/master/UNET_OCT_Blood_Vessel_Segmentation.ipynb)
